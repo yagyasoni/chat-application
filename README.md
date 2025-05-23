@@ -29,7 +29,6 @@ Two user accounts have been created for testing purposes:
 ## Live Demo
 
 👉 **[https://chat-application-h2d4-fe36u1z2k-yagya-sonis-projects.vercel.app/](https://chat-application-h2d4-fe36u1z2k-yagya-sonis-projects.vercel.app/)**  
-_Replace this with your actual deployed URL._
 
 ---
 
@@ -81,7 +80,3 @@ pnpm dev
 bun dev
 ```
 
-
-
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
