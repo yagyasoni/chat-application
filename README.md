@@ -14,15 +14,38 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Next.js Chat Application
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This is a full-stack chat application built with Next.js, Tailwind CSS, Supabase, and TypeScript. It features real-time messaging, user authentication, and a sleek, pixel-perfect UI inspired by WhatsApp.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- 🔐 User authentication with Supabase
+- 💬 Real-time messaging with Supabase subscriptions
+- 🎤 Voice input (mic button)
+- 📎 File/image attachment (insert button)
+- 📱 Responsive, pixel-perfect WhatsApp-style UI
+- 🌐 Deployed and shareable via a universal link
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Test Login Credentials
+
+Two user accounts have been created for testing purposes:
+
+- **User 1**  
+  Email: `test@example.com`  
+  Password: `password123`
+
+- **User 2**  
+  Email: `test2@example.com`  
+  Password: `password1234`
+
+## Getting Started Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
 
 ## Learn More
 
