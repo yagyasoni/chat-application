@@ -1,30 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
 # Next.js Chat Application
 
-This is a full-stack chat application built with Next.js, Tailwind CSS, Supabase, and TypeScript. It features real-time messaging, user authentication, and a sleek, pixel-perfect UI inspired by WhatsApp.
+This is a full-stack chat application built with Next.js, Tailwind CSS, Supabase, and TypeScript. It features real-time messaging, user authentication, a responsive pixel-perfect UI, and modern chat features like file/image attachments and user search.
 
 ## Features
 
 - 🔐 User authentication with Supabase
 - 💬 Real-time messaging with Supabase subscriptions
-- 🎤 Voice input (mic button)
 - 📎 File/image attachment (insert button)
-- 📱 Responsive, pixel-perfect WhatsApp-style UI
+- 📱 Responsive pixel-perfect UI
+- 🔍 User search functionality – type in the search bar to find users by name
 - 🌐 Deployed and shareable via a universal link
 
 ## Test Login Credentials
@@ -39,25 +23,65 @@ Two user accounts have been created for testing purposes:
   Email: `test2@example.com`  
   Password: `password1234`
 
+
+---
+
+## Live Demo
+
+👉 **[https://chat-application-h2d4-fe36u1z2k-yagya-sonis-projects.vercel.app/](https://chat-application-h2d4-fe36u1z2k-yagya-sonis-projects.vercel.app/)**  
+_Replace this with your actual deployed URL._
+
+---
+
+
 ## Getting Started Locally
 
-Install dependencies:
+Follow these steps to set up and run the application locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Install dependencies
+
+Install the project dependencies using your preferred package manager:
 
 ```bash
 npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
 ```
 
-## Learn More
+### 3. Set up environment variables and run the development server
 
-To learn more about Next.js, take a look at the following resources:
+Create a .env.local file in the root of your project and add the following:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+Replace your-supabase-url and your-supabase-anon-key with the actual values from your Supabase project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 4. Run the development server
 
-## Deploy on Vercel
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
